@@ -12,5 +12,5 @@ jobs:
       - name: Build
         run: docker build . -t ooni
       - name: Run
-        run: docker run -it ooni
+        run: docker run ooni
 
