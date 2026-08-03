@@ -13,5 +13,5 @@ RUN ooniprobe onboard --yes
 
 # Run unattended probes
 ENTRYPOINT [ "ooniprobe" ]
-CMD [ "run", "unattended" ]
+CMD [ "run" ]
 

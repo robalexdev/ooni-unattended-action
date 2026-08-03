@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Build
-        run: docker build . -t ooni
+        run: docker build . -t ooniprobe
       - name: Run
-        run: docker run ooni
+        run: docker run ooniprobe run unattended && docker run ooniprobe list
 
