@@ -1,0 +1,5 @@
+https://mta-sts.zativo.com/.well-known/mta-sts.txt
+https://mta-sts.xyplanningnetwork.com/.well-known/mta-sts.txt
+https://mta-sts.witzenmann.com/.well-known/mta-sts.txt
+https://mta-sts.thieme-compliance.de/.well-known/mta-sts.txt
+https://mta-sts.wonde.com/.well-known/mta-sts.txt

@@ -12,6 +12,5 @@ RUN mkdir -p /root/.gnupg/ /etc/apt/keyrings/ && \
 RUN ooniprobe onboard --yes
 
 # Run unattended probes
-ENTRYPOINT [ "ooniprobe" ]
-CMD [ "run" ]
+CMD [ "ooniprobe", "run" ]
 
