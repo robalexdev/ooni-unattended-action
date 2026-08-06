@@ -14,7 +14,7 @@ jobs:
       - name: Build
         run: docker build . -t ooniprobe
       - name: Run MTA-STS checks
-        run: docker run ooniprobe bash -c "ooniprobe run websites --input-file mta-sts-list.txt && ooniprobe list"
+        run: docker run --volume lists:/lists ooniprobe bash -c "ooniprobe run websites --input-file /lists/mta-sts-list.txt && ooniprobe list"
       - name: Run
         run: docker run ooniprobe bash -c "ooniprobe run unattended && ooniprobe list"
 
