@@ -1,6 +1,8 @@
 name: ooni run
-on: [push]
-
+on:
+  push:
+  schedule:
+    - cron: "19 23 3 * *"
 jobs:
 
   unattended:
